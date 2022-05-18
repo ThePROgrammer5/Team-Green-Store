@@ -6,8 +6,5 @@ var kart = {
 
 function addToKart(item, no) {
     kart.item = kart.item + int(no);
-}
-
-function order() {
-    document.getElementById("orderL").setAttribute('href', "mailto&to=codingplusgaming@gmail.com");
+    document.getElementById("order").setAttribute('href', "mailto&to=codingplusgaming@gmail.com");
 }
