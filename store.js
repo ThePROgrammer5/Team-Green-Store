@@ -51,10 +51,9 @@ function addToKart(item) {
 }
 
 function order() {
-    var address = "12345 somthing street, zip code, city, state";
     //var orderN = orderN();
     alert("Your total is: $" + total);
     recipt(JSON.stringify(kart));
-    alert("To complete order, send $" + total +" in CASH to: " + adress);
+    alert("To complete order, send $" + JSON.stringify(total) + " in CASH to: somthing);
     window.open('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + JSON.stringify(kart));
 }
