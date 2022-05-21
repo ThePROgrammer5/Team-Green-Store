@@ -1,4 +1,5 @@
 var total = 0;
+
 var kart = {
     imperfectSeed: 0,
     normalSeed: 0,
