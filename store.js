@@ -52,7 +52,7 @@ function addToKart(item) {
 
 function order() {
     var address = "12345 somthing street, zip code, city, state";
-    var orderN = orderN();
+    //var orderN = orderN();
     alert("Your total is: $" + total);
     var recipt = 'mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart;
     recipt(recipt);
