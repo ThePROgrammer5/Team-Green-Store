@@ -55,6 +55,6 @@ function order() {
     //var orderN = orderN();
     alert("Your total is: $" + total);
     recipt('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart);
-    window.open('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart)
+    window.open('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart);
     alert("To complete order, send $" + total +" to: " + adress);
 }
