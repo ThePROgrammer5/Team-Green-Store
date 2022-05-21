@@ -1,4 +1,4 @@
-var total;
+var total = 0;
 
 var kart = {
     imperfectSeed: 0,
