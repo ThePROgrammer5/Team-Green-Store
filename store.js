@@ -1,5 +1,3 @@
-console.log(stock);
-
 var total = 0;
 
 var kart = {
