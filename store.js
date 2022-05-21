@@ -54,7 +54,7 @@ function order() {
     var address = "12345 somthing street, zip code, city, state";
     //var orderN = orderN();
     alert("Your total is: $" + total);
-    var recipt = 'mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart;
-    recipt(recipt);
+    recipt('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart);
+    window.open('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + kart)
     alert("To complete order, send $" + total +" to: " + adress);
 }
