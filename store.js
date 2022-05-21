@@ -46,7 +46,7 @@ function recipt(rec) {
 function addToKart(item) {
     alert(item);
     var number = prompt("How many would you like to order?");
-    kart.item = kart.item + number;
+    kart.item = kart.item + int(number);
     var cost = stock.item.price + stock.item.tax / 100; // calculates the cost of item in dollars, cost in cents / 100 = cost in dollars
     alert(cost);
     total = total + cost; // add the items cost to the total
