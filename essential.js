@@ -1,6 +1,6 @@
 var kart = {
-    item_name_no_spaces: 0, // keep at 0
-    item_name_no_spaces_cant_be_same_as_other_item: 0, // keep at 0
+    item_name_no_spaces: 0,
+    item_name_no_spaces_cant_be_same_as_other_item: 0,
 };
 
 var stock = {
