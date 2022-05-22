@@ -20,11 +20,9 @@ function recipt(rec) {
 }
 
 function addToKart(item) {
-    alert(item);
-    alert(JSON.stringify(item));
     var number = prompt("How many would you like to order?");
-    kart.item = kart.item_name_no_spaces + number;
-    var cost = stock.item.price; // calculates the cost of item in dollars, cost in cents / 100 = cost in dollars
+    kart.JSON.stringify(item) = kart.JSON.stringify(item) + number;
+    var cost = stock.JSON.stringify(item).price; // calculates the cost of item in dollars, cost in cents / 100 = cost in dollars
     total = total + cost; // add the items cost to the total
 }
 
