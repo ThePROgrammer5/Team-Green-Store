@@ -7,21 +7,7 @@ var kart = {
 };
 
 var stock = {
-    imperfectSeed: {
-        amount: 5,
-        price: 50,
-        tax: 0,
-    },
-    normalSeed: {
-        amount: 5,
-        price: 100,// in cents
-        tax: 0,// in cents
-    },
-    perfectSeed: {
-        amount: 5,
-        price: 200,
-        tax: 0,
-    },
+    
 }
 
 function orderN() {
@@ -45,8 +31,8 @@ function recipt(rec) {
 
 function addToKart(item) {
     var number = prompt("How many would you like to order?");
-    kart.item = kart.item + int(number);
-    var cost = stock.item.price + stock.item.tax / 100; // calculates the cost of item in dollars, cost in cents / 100 = cost in dollars
+    kart.item = kart.item + number;
+    var cost = stock.item.price; // calculates the cost of item in dollars, cost in cents / 100 = cost in dollars
     total = total + cost; // add the items cost to the total
 }
 
