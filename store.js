@@ -1,11 +1,5 @@
 var total = 0;
 
-var kart = {
-    imperfectSeed: 0,
-    normalSeed: 0,
-    perfectSeed: 0,
-};
-
 function orderN() {
     var orderT;
     if(orderT == null || undefined || "") {
