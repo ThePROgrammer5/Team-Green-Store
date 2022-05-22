@@ -55,5 +55,5 @@ function order() {
     alert("Your total is: $" + total);
     recipt(JSON.stringify(kart));
     alert("To complete order, send $" + JSON.stringify(total) + " in CASH to: somthing");
-    window.open('mailto:codingplusgaminggmail.com?subject= Team Green Order&body=Order:' + JSON.stringify(kart));
+    window.open('mailto:codingplusgaming@gmail.com?subject= Team Green Order&body=Order:' + JSON.stringify(kart));
 }
